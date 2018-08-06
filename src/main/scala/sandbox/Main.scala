@@ -1,7 +1,7 @@
 package sandbox
 
-import sandbox.printable.Printable
-import sandbox.printable.PrintableInstances._
+import sandbox.introduction.printable.Printable
+import sandbox.introduction.printable.PrintableInstances._
 
 object Main extends App {
   val x = Printable.format(1)

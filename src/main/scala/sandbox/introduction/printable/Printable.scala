@@ -1,6 +1,6 @@
-package sandbox.printable
+package sandbox.introduction.printable
 
-import sandbox.printable.Application.Cat
+final case class Cat(name: String, age: Int, color: String)
 
 trait Printable[A] {
   def format(value: A): String
