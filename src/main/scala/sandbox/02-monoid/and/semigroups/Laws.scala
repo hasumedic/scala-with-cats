@@ -1,8 +1,8 @@
-package sandbox.introduction.monoid
+package sandbox.monoid.and.semigroups
 
 import BaseMonoid._
 
-object TheTruthAboutMonoids {
+object Laws {
 
   val booleanOrMonoid: Monoid[Boolean] = new Monoid[Boolean] {
     override def empty: Boolean = false

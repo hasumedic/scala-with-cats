@@ -1,6 +1,6 @@
-package sandbox.introduction.functor
+package sandbox.functor
 
-import sandbox.introduction.functor.Contramap.Box
+import sandbox.functor.Contramap.Box
 
 object Imap {
 

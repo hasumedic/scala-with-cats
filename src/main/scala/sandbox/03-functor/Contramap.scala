@@ -1,4 +1,4 @@
-package sandbox.introduction.functor
+package sandbox.functor
 
 object Contramap {
 

@@ -1,8 +1,7 @@
-package sandbox.introduction.functor
+package sandbox.functor
 
 import cats.Functor
-import sandbox.introduction.functor.Functors.{Branch, Leaf, Tree}
-import sandbox.introduction.functor.Imap._
+import sandbox.functor.Functors.{Branch, Leaf, Tree}
 
 object Application extends App {
 
@@ -27,6 +26,8 @@ object Application extends App {
   //Doesn't compile
 //  println(format(Box(123)))
 
+
+  import Imap._
 
   println(encode(123.4))
   println(decode[Double]("123.4"))

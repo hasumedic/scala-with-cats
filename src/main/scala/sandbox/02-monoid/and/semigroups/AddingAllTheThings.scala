@@ -1,4 +1,4 @@
-package sandbox.introduction.monoid
+package sandbox.monoid.and.semigroups
 
 import cats.Monoid
 import cats.instances.int._

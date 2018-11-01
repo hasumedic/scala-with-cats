@@ -1,11 +1,11 @@
-package sandbox.introduction.monoid
+package sandbox.monoid.and.semigroups
 
-import sandbox.introduction.monoid.AllSetForMonoids.{setIntersectionMonoid, setUnionMonoid}
-import sandbox.introduction.monoid.BaseMonoid.associativityLaw
-import sandbox.introduction.monoid.TheTruthAboutMonoids.{booleanAndMonoid, booleanOrMonoid, booleanReverseAndMonoid, booleanReverseOrMonoid}
+import SetMonoid.{setIntersectionMonoid, setUnionMonoid}
+import BaseMonoid.associativityLaw
+import Laws.{booleanAndMonoid, booleanOrMonoid, booleanReverseAndMonoid, booleanReverseOrMonoid}
 import cats.instances.int._
 import cats.instances.option._
-import sandbox.introduction.monoid.AddingAllTheThings.Order
+import AddingAllTheThings.Order
 
 object Application extends App {
 

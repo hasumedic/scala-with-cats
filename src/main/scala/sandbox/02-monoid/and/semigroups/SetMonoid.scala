@@ -1,8 +1,8 @@
-package sandbox.introduction.monoid
+package sandbox.monoid.and.semigroups
 
 import BaseMonoid._
 
-object AllSetForMonoids {
+object SetMonoid {
 
   def setUnionMonoid[A](): Monoid[Set[A]] = new Monoid[Set[A]] {
     override def empty: Set[A] = Set.empty[A]
