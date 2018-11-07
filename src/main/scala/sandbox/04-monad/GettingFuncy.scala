@@ -1,7 +1,5 @@
 package sandbox.monad
 
-import scala.languageFeature.higherKinds
-
 object GettingFuncy {
 
   trait Monad[F[_]] {
